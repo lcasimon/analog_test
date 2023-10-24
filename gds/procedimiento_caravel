@@ -1,0 +1,7 @@
+git clone https://github.com/efabless/caravel_user_project_analog my_chip_test_Analog
+cd my_chip_test_Analog/
+git remote rename origin upstream
+git remote add origin https://github.com/lcasimon/my_chip_test_Analog.git
+git checkout -b mpw5
+git push -u origin mpw5
+
